@@ -1,9 +1,12 @@
-const txtElement = ['Pemprograman', 'Web', 'Framework'];
-let count = 0;
-let txtIndex = 0;
-let currentTxt = '';
-let words = '';
+// Variable - array
+const txtElement = ['Pemprograman', 'Web', 'Framework']; //untuk nilai tidak akan berubah.
+let count = 0; 
+let txtIndex = 0; 
+let currentTxt = '';  //mengetahui sekarang ada di text yang mana
+let words = ''; //mengambil 1 kata
 
+
+//fungsi untuk jalankan program
 (function ngetik(){
 
 	if(count == txtElement.length){
@@ -13,7 +16,7 @@ let words = '';
 	currentTxt = txtElement[count];
 
 	words = currentTxt.slice(0, ++txtIndex);
-	document.querySelector('.efek-ngetik').textContent = words;
+	document.querySelector('.efek-ngetik').textContent = words; //tampilkan
 
 	if(words.length == currentTxt.length){
 		count++;
