@@ -88,8 +88,8 @@ section {
 }
 .banner img {
   width: 100px;
-  border-radius: 80px;
-  box-shadow: 0 3px 5px #ddd;
+  border-radius: 30px;
+  /* box-shadow: 0 3px 5px #ddd; */
   margin-bottom: 10px;
 }
 .banner h2,
@@ -129,7 +129,7 @@ section h3::after {
   bottom: -1px;
   width: 40px;
   height: 4px;
-  background-color: #f84744;
+  background-color: #408080;
   left: calc(50% - 20px);
 }
 #about p {
