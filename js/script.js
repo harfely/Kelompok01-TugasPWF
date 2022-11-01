@@ -1,3 +1,5 @@
+
+
 // Variable - array
 const txtElement = ['Pemprograman', 'Web', 'Framework']; //untuk nilai tidak akan berubah.
 let count = 0; 
@@ -8,6 +10,7 @@ let words = ''; //mengambil 1 kata
 
 //fungsi untuk jalankan program
 (function ngetik(){
+
 
 	if(count == txtElement.length){
 		count = 0;
