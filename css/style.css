@@ -4,6 +4,13 @@
   font-family: "Quicksand", sans-serif;
   color: #333;
 }
+
+#container {
+  width: 100%;
+  background: #ced6d6;
+  position: fixed; /*trik posisi fix*/
+  z-index: 9999;
+}
 header {
   height: 70px;
 }
